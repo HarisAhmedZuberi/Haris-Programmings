@@ -35,11 +35,34 @@ except:
 finally:
     print('the \'try except\' statement executed')'''
 
-try:
+'''try:
     try:
         #x = 5
         print(x)
     except:
         print('there is no error!')
 except:
-    print('executed')
+    print('executed')'''
+
+'''f = open('haris.txt')
+print(f)
+print(f.read(5))
+
+
+h = open('G:\\bilal.txt', 'rt')
+print(h.read(10))
+print(h.read(5))'''
+
+'''d = open('haris.txt')
+print(d.readline())
+print(d.readline())
+print(d.readline())'''
+
+'''a = open('haris.txt')
+for x in a:
+    print(x)
+'''
+
+b = open('G:\\bilal.txt')
+print(b.readline())
+b.close()
